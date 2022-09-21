@@ -58,8 +58,8 @@ body {
 
 h1 {
     text-align: center;
-    font-size: 4rem;
-    max-width: 40%;
+    font-size: 3rem;
+    max-width: 50%;
     right: 3.5em;
     top: 2.5em;
     position: absolute;
@@ -71,15 +71,18 @@ h1 {
     flex-direction: column;
     gap: 3em;
     align-items: center;
-    height: 50%;
-    top: 40%;
-    right: 0;
+    /* height: 50%; */
+    top: 35%;
+    left: 38%;
     position: absolute;
     z-index: 1;
+    overflow: hidden;
 }
 
-.iconify-icon {
-    text-align: center;
+.icon-service a {
+    text-decoration: none;
+    color: white;
+    font-size: 5rem;
 }
 
 .row-services1 {
@@ -97,7 +100,6 @@ h1 {
 
 .icon-service {
     display: grid;
-    gap: 1em;
     text-align: center;
     align-items: center;
     justify-items: center;
